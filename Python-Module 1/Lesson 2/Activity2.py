@@ -1,0 +1,9 @@
+x=24
+print(x)
+print("x")
+y=98
+print(x+y)
+print(y-x)
+aarush="aarush"
+print(aarush)
+name=input("aarush")

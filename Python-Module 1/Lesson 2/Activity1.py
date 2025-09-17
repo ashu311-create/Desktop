@@ -1,0 +1,5 @@
+print("the expression",2+3)
+print("the mathimatical expression",2*54-29)
+print('5')
+print(5)
+print("welcome to codingal",end=",")
