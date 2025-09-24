@@ -1,0 +1,9 @@
+num1=45
+num2=67
+num3=69
+num4=78
+num5=33
+sum=num1+num2+num3+num4+num5
+total=5
+avg=sum/total
+print(avg)
