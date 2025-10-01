@@ -1,3 +1,16 @@
 import math
-def find_square_root(num):"Calculate the sqare root of the provided number"
 
+# Get input from the user
+try:
+    num = float(input("Enter a number to find its square root: "))
+
+    # Calculate the square root
+    if num >= 0:
+        square_root = math.sqrt(num)
+        print(f"The square root of {num} is {square_root}")
+    else:
+        print("Cannot calculate the square root of a negative number using math.sqrt().")
+        print("Use cmath.sqrt() for complex numbers if needed.")
+
+except ValueError:
+    print("Invalid input. Please enter a valid number.")
